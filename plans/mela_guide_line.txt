@@ -10,3 +10,4 @@
 10) [attachment, hate, curious, jealous, love] are considored as 'my emotions to target'.
 11) [borrow.imp, lend.imp, appointment.imp] are considored as 'targe's interactions'.
 12) [attachment.imp, hate.imp, curious.imp, jealous.imp, love.imp] are considored as 'target's emotions'.
+13) resolve(x) method's importance derives from the x. The importance of x is equal to importance of resolve(x).
