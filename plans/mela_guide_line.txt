@@ -1,0 +1,12 @@
+1) Every rotation of the process is called "cycle".
+2) Every cycle, a new memory file is created.
+3) When every importance values hits 0 in memory, that memory gets deleted.
+4) .imp in input means importance
+5) Language model takes a text as input
+6) Language model gives [subject, verb, object1, object2] as output
+7) sum(x) in input means "sum every x value that takes 'me' as the target in every memory."
+8) Mind model gives [Joy, Sadness, Anger, attachment, hate, curious, jealous, love, borrow.imp, lend.imp, appointment.imp, attachment.imp, hate.imp, curious.imp, jealous.imp, love.imp] as output
+9) [Joy, Sadness, Anger] are considered as 'my emotions'.
+10) [attachment, hate, curious, jealous, love] are considored as 'my emotions to target'.
+11) [borrow.imp, lend.imp, appointment.imp] are considored as 'targe's interactions'.
+12) [attachment.imp, hate.imp, curious.imp, jealous.imp, love.imp] are considored as 'target's emotions'.
